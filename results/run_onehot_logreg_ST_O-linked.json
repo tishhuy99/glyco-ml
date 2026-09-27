@@ -1,0 +1,19 @@
+{
+  "tag": "onehot_logreg_ST_O-linked",
+  "encoder": "onehot",
+  "model": "logreg",
+  "residues": [
+    "S",
+    "T"
+  ],
+  "glyco_type": "O-linked",
+  "experimental_only": true,
+  "seed": 0,
+  "split_method": "mmseqs2 min-seq-id=0.3 cov=0.5",
+  "n_residues": 401379,
+  "n_positives": 817,
+  "mean_prauc_model": 0.020990022122174497,
+  "mean_prauc_pssm": 0.029188848146616247,
+  "mean_prauc_sequon": 0.0021298236551859267,
+  "run_utc": "2026-09-27T21:56:05.150177+00:00"
+}

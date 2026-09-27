@@ -1,0 +1,8 @@
+{
+  "source": "UniProtKB REST API",
+  "endpoint": "https://rest.uniprot.org/uniprotkb/search",
+  "query": "(organism_id:9606) AND (reviewed:true) AND (ft_carbohyd:*)",
+  "fields": "accession,id,protein_name,gene_names,sequence,ft_carbohyd,cc_subcellular_location,length",
+  "n_records": 4619,
+  "fetched_utc": "2026-09-27T21:51:40.128667+00:00"
+}

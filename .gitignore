@@ -1,0 +1,19 @@
+# data is regenerable -- fetch_uniprot.py pulls it in ~15s
+data/raw/*.json
+data/processed/
+!data/raw/fetch_meta.json
+
+# feature matrices (hundreds of MB)
+*.npy
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# env
+.venv/
+env/

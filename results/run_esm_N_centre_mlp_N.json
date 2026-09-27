@@ -1,0 +1,18 @@
+{
+  "tag": "esm_N_centre_mlp_N",
+  "encoder": "esm",
+  "model": "mlp",
+  "residues": [
+    "N"
+  ],
+  "glyco_type": null,
+  "experimental_only": true,
+  "seed": 0,
+  "split_method": "mmseqs2 min-seq-id=0.3 cov=0.5",
+  "n_residues": 97707,
+  "n_positives": 3109,
+  "mean_prauc_model": 0.4965892312000656,
+  "mean_prauc_pssm": 0.4751018259100189,
+  "mean_prauc_sequon": 0.33874556962635716,
+  "run_utc": "2026-09-27T22:54:02.328392+00:00"
+}
